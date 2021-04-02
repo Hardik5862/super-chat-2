@@ -9,8 +9,6 @@ import Sidebar from "./components/Sidebar";
 import Chat from "./components/Chat";
 import Loader from "./components/pinwheel.gif";
 
-import "./App.css";
-
 function App() {
   const [user, loading] = useAuthState(auth);
 
